@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run SSH4Me Action
-        uses: BRAZILIANiptv/SSH4Metest@main
+        uses: BRAZILIANiptv/SSH4Me@main
         env:
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
           PASSWORD: ${{ secrets.PASSWORD }}
